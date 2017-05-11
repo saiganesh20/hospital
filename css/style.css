@@ -1,0 +1,74 @@
+/*appointment body*/
+body{
+background: url('../images/img4.jpg') no-repeat center fixed;
+background-size: cover;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*Carousel*/
+.aaa{
+padding-top:60px;
+}
+/*Appointment*/
+.app{
+padding-top:160px;
+}
+input{
+color: white;
+margin: 10px;
+font-family: bold;
+}
+.Space{
+margin: 10px;
+font-family: bold;
+}
+.align{
+margin-left: 100px;
+margin-top: 10px;
+}
+/*Jumbotron*/
+.jumbotron{
+color:#000;
+}
+.jump{
+padding-top:10px;
+}
+
+}
+/*Video*/
+.vdo
+{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+/*Footer*/
+.foot1{
+background-color:black;
+color:white;
+}
+.footer
+{
+list-style-type:none;
+text-decoration:none;
+font-size:10px;
+}
+h5{
+margin-left: 40px;
+}
+/*Media Queries*/
+@media (max-width:768px)
+{
+.image
+{
+width:100%;
+height:350px;
+}
+.jumbotron p
+{
+font-size:
+}
+
+}

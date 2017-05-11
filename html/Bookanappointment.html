@@ -1,0 +1,115 @@
+<Doctype html!>
+<html>
+<head><!-- Start Head -->
+<title>Appointment Form</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+</head><!-- End Head -->
+<!-- Start body -->
+<body class="appointment">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container-fluid">
+	     <div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							 <span class="icon-bar"></span>
+							 <span class="icon-bar"></span>
+							 <span class="icon-bar"></span>
+					 </button>
+			     <a class="navbar-brand" href="../index.html">SSG Hosiptals</a>
+	     </div>
+		   <div class="collapse navbar-collapse" id="myNavbar">
+				   <ul class="nav navbar-nav">
+			         <li class="active"><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+			          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Patient care<span class="caret"></span></a>
+										 <ul class="dropdown-menu">
+											 <li><a href="#">New patients</a></li>
+					            					 <li><a href="#">Out patients</a></li>
+					            					 <li><a href="#">Vistors</a></li>
+				             					</ul>
+			          </li>
+								<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Specliazation<span class="caret"</span></a>
+										 <ul class="dropdown-menu">
+											 <li><a href="#">Cardilogist</a></li>
+											 <li><a href="#">General Medicine</a></li>
+											 <li><a href="#">Diabetes</a></li>
+											 <li><a href="#">Paediatrics</a></li>
+											 <li><a href="#">Dermatology</a></li>
+											 <li><a href="#">ENT</a></li>
+										 </ul>
+			          </li>
+								 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Research<span class="caret"</span></a>
+										 <ul class="dropdown-menu">
+											 <li><a href="#">Intoduction</a></li>
+											 <li><a href="#">Acadamic projects</a></li>
+											 <li><a href="#">Clincal Trilas</a></li>
+											 <li><a href="#">DNB</a></li>
+										 </ul>
+								 </li>
+			           <li><a href="#">Book an Appointment</a></li>
+		         </ul>
+						 <ul class="nav navbar-nav navbar-right">
+							 <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+							 <li><a href="#"><span class="glyphicon glyphicon-user"></span>Login</a></li>
+						 </ul>
+					 </div><!-- End Navbar-collapse -->
+		   </div><
+		</nav><!-- End navbar -->
+
+<div class="container ">
+		<div class="app">
+			<center>
+	        <h1>Appointment Form</h1>
+              <form action="../index.html" method="post">
+								<table>
+								<tr>
+									<td><b>Patient Name:</b></td>
+									<td><input type="text" name="patientname" value=""/></td>
+								</tr>
+								<tr>
+									<td><b>City:</b></td>
+									<td><input type="text" name="City" value=""/></td>
+								</tr>
+								<tr>
+									<td><b>Mobile No:</b></td>
+									<td><input type="text" name="Mobile No" value=""/></td>
+								</tr>
+								<tr>
+									<td><b>Email Id:</b></td>
+									<td><input type="text" name="patientname" value=""/></td>
+								</tr>
+								<tr>
+									<td><b>Locality:</b></td>
+									<td><input type="text" name="Locality" value=""/></td>
+								</tr>
+							 	<tr>		<td><b>Sex:</b></td>
+										<td> <input type="radio" name="gender" value="male"/><b>Male</b>
+										<input type="radio" name="gender" value="female"/><b>Female</b> </td>
+										
+								</tr>
+								<tr>
+										<td><b>Doctor Name:</b></td>
+										<td><select name="doctor name" class="Space">
+										<option value="1"> Ramesh<option/>
+										<option value="2">Venugopal<option/>
+										<option value="3">Shyamala<option/>
+										<option value="4">Srinivas<option/>
+										<option value="5">Sai<option/>
+										</select></td>
+								</tr>
+								<tr>
+									<td><button type="submit" value="submit" name="submit" class="align">Submit</button></td>
+								</tr>
+							</form><!-- End form -->
+         </center>
+     </div>
+</div><!-- End container -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body><!-- End Body -->
+</html><!-- End html -->
